@@ -10,7 +10,7 @@ Perform exploratory data analysis (EDA) on a mixed-feature dataset and build a b
 - annual_inc: The annual income provided by the borrower during application.
 - bc_util: Ratio of total current balance to high credit/credit limit for all bankcard accounts.
 - desc: Loan description provided by the borrower
-- dti: A ratio calculated using the borrower�s total monthly debt payments on the total debt obligations excluding mortgage and the requested loan divided by the borrower's self-reported monthly income.
+- dti: A ratio calculated using the borrower's total monthly debt payments on the total debt obligations excluding mortgage and the requested loan divided by the borrower's self-reported monthly income.
 - emp_length: Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.
 - home_ownership: The home ownership status provided by the borrower during registration. Our values are: RENT OWN MORTGAGE OTHER.
 - id: A unique assigned ID for the loan listing.
@@ -30,3 +30,6 @@ Perform exploratory data analysis (EDA) on a mixed-feature dataset and build a b
 - application approved_flag: Indicates if the loan application is approved or not
 - internal_score: An third party vendor's risk score generated when the application is made
 - bad_flag: Target variable indicates if the loan is eventually bad or not
+
+### Project Structure
+- data_preparation python notebook contains data loading and Exploratory Data Analysis (EDA).
