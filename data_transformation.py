@@ -6,16 +6,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler, LabelEncoder, RobustScaler, PowerTransformer
 from sklearn.impute import SimpleImputer
 import pandas as pd
-'''
-right:
-annual_inc
-total_bc_limit
-tot_hi_cred_lim
-tot_cur_bal
 
-left:
-bc_util
-'''
 # Helper functions
 def get_numerical_features():
     # Get numerical features
