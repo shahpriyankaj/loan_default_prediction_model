@@ -6,6 +6,18 @@ The challenge is to build a model that predicts at application time whether an a
 ### Objective
 Perform exploratory data analysis (EDA) on a mixed-feature dataset and build a binary classification neural network model using PyTorch.
 
+### Project Structure
+- data_analysis.ipynb: Python notebook contains data loading, Exploratory Data Analysis (EDA), summary of EDA, Business Insights from EDA
+- data_transformation.py: Python script contains the data preprocessing and data transformation pipeline to transform and prepare data for model training, validation and prediction on test data
+- model_training.ipynb: Python notebook to load and transform data (using data_transformation.py), model training and testing, loading and predicting on testing data.
+- model_full.pth: Trained neural network model
+- requirement.txt: required python libraries
+
+### Steps to run the model and make prediction:
+- Install python libraries using requirements.txt file. (E.g. pip install -r requirements.txt)
+- Run model_training.ipynb notebook - one by one each cell to train the model and test on testing dataset. 
+- Make sure, path of the training and testing csv are correct.
+
 ### Data Dictionary
 - annual_inc: The annual income provided by the borrower during application.
 - bc_util: Ratio of total current balance to high credit/credit limit for all bankcard accounts.
@@ -31,5 +43,3 @@ Perform exploratory data analysis (EDA) on a mixed-feature dataset and build a b
 - internal_score: An third party vendor's risk score generated when the application is made
 - bad_flag: Target variable indicates if the loan is eventually bad or not
 
-### Project Structure
-- data_preparation python notebook contains data loading and Exploratory Data Analysis (EDA).
